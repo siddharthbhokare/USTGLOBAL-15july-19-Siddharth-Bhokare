@@ -1,0 +1,23 @@
+<!-- <p>users works!</p> -->
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Index</th>
+            <th>Task</th>
+             <th>update</th>
+            <th>delete</th>
+
+         </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= 'let user of users;index as i'>
+            <td>{{i+1}}</td>
+            <td>{{user.addtask1}}</td>
+           
+            <td><button>update</button></td>
+            <td><button (click) = "deleteData(i)">delete</button></td>
+        </tr>
+    </tbody>
+</table>
+

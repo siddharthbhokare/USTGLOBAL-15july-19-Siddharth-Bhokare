@@ -1,0 +1,12 @@
+
+
+<form action="" #addtask="ngForm" (ngSubmit)="sendData(addtask.value)">
+    <legend>Form title</legend>
+
+    <div class="form-group">
+       
+        <input type="text" name="addtask1" class="form-control" #addtask1 = 'ngModel' ngModel  id="" placeholder="add new task">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

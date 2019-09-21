@@ -1,0 +1,22 @@
+<!-- <p>car works!</p> -->
+<!-- <p>bikes works!</ -->
+<div class="container mt-4">
+    <div class="col-md-3 float-left">
+    <div class="card card-body  " *ngFor="let cars of car">
+        <img src="{{cars.img}}" alt="" class="card-img-top" (click)='sendCars(cars)'>
+        <h4 class="card-title">{{cars.brand}}</h4>
+    </div>
+    </div>
+
+
+ <app-car-details [carDetails]='carsData'></app-car-details>
+
+
+
+
+
+
+
+
+</div>
+

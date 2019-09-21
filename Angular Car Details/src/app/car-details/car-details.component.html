@@ -1,0 +1,6 @@
+<!-- <p>car-details works!</p> -->
+<div class="col-md-8 offset-md-1 card-body mt-4 float-left" *ngIf="carDetails !=''">
+    <img [src]="carDetails.img" class="card-img-top" alt="">
+    <h4 >{{carDetails.brand}}</h4>
+    <p>{{carDetails.description}}</p>
+    </div>
