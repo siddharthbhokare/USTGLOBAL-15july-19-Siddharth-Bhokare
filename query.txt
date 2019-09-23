@@ -1,0 +1,45 @@
+1. query to show database
+=>	show databases;
+2. creat database	
+=>	create database UST;
+
+3.use database
+=>	use ust;
+
+4.create table
+=>	create table student(id int, name varchar(120),emailId varchar(150));
+	+---------------+
+	| Tables_in_ust |
+	+---------------+
+	| student       |
+	+---------------+
+
+5. to describe table:
+
+=>	desc student;
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| id      | int(11)      | YES  |     | NULL    |       |
+| name    | varchar(120) | YES  |     | NULL    |       |
+| emailId | varchar(150) | YES  |     | NULL    |       |
++---------+--------------+------+-----+---------+-------+
+ 
+6. to drop the table:
+=>	drop table student;
+
+7. to drop database:
+=>	drop databases;
+
+8.to drop particular database
+=>	drop databases ust;
+
+9.to add element in column
+=>	alter table student add column mobileNo int;
+
+10.add elemet in column without column name
+=>	 alter table student add address varchar(120);
+
+11. to drop column ...... syntax is: ALTER TABLE table_name DROP COLUMN column_name;
+=>	alter table student drop name;
+
