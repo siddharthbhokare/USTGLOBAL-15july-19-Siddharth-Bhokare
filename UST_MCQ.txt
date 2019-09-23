@@ -1,0 +1,83 @@
+1. What is the range of short data type in Java?
+a) -128 to 127
+b) -32768 to 32767
+c) -2147483648 to 2147483647
+d) None of the mentioned
+
+View Answer = b
+
+2. What is the range of byte data type in Java?
+a) -128 to 127
+b) -32768 to 32767
+c) -2147483648 to 2147483647
+d) None of the mentioned
+
+View Answer = a
+
+
+3. How to copy contents of array?
+a) System.arrayCopy()
+b) Array.copy()
+c) Arrays.copy()
+d) Collection.copy()
+
+View Answer = a
+
+
+4. Which of the following can be operands of arithmetic operators?
+a) Numeric
+b) Boolean
+c) Characters
+d) Both Numeric & Characters
+
+View Answer = d
+
+5. Modulus operator, %, can be applied to which of these?
+a) Integers
+b) Floating – point numbers
+c) Both Integers and floating – point numbers
+d) None of the mentioned
+
+View Answer = c
+
+**************************OOPS  Concept*********************************
+
+1. Which concept of Java is achieved by combining methods and attribute into a class?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Abstraction
+
+View Answer = a
+
+2. What is it called if an object has its own lifecycle and there is no owner?
+a) Aggregation
+b) Composition
+c) Encapsulation  
+d) Association
+
+View Answer = d
+
+
+
+3. What is it called where child object gets killed if parent object is killed?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association
+
+View Answer = b
+
+4. What is it called where object has its own lifecycle and child object cannot belong to another parent object?
+a) Aggregation
+b) Composition
+c) Encapsulation
+d) Association
+
+View Answer = a
+
+5. Method overriding is combination of inheritance and polymorphism?
+a) True
+b) false
+
+View Answer = a
