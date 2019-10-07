@@ -1,0 +1,30 @@
+<div class="container">
+    <table class="table  table-hover text-center  mt-4" style="width: 100%">
+            <thead>
+                <tr class="bg-dark text-white">
+                  
+                    <th> id</th>
+                    <th> Name</th>
+                    <th> Starting Date</th>
+                    <th> Ending Date</th>
+                    <th>Remove </th>
+                    <th>End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let task of service.tasks ;index as i '>
+                
+                <td>{{task.task_id }} </td>
+                <td>{{task.task}} </td>
+                <td>{{task.task_start_date }} </td>
+                <td>{{task.task_end_date }} </td>
+                <td> <button class="btn-danger btn-hover" (click)='deleteTask(task.task_id)'>
+                    Delete Task
+                </button></td>
+                <td>
+                    <button class="btn-primary" (click)='completeTask(task)'>End Task</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+</div>

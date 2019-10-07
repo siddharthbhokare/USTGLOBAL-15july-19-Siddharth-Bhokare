@@ -1,0 +1,14 @@
+<div class="col-md-3 offset-md-4  mt-4 mb-4">
+    <h3 class="text-center">Add New Task</h3>
+
+    <form #taskForm='ngForm' (ngSubmit)='postTask(taskForm)'>
+       
+        <input type="hidden" name="id"   #id='ngModel' [(ngModel)]='service.selectedTask.name'>
+        <input type="text" class="form-control  mt-4" name="task" #email='ngModel' 
+         [(ngModel)]='service.selectedTask.task' placeholder="Fill Task" >
+    
+        
+        <button type="ADD TASK" class="btn-primary mt-4 offset-md-4" [disabled]='taskForm.invalid'>Submit Task</button>
+   
+    </form>
+</div>
