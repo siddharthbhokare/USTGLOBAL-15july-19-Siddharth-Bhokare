@@ -1,0 +1,25 @@
+<div class="container">
+    <table class="table table-bordered table-hover text-center  mt-5" style="width: 100%">
+            <thead>
+                <tr class="bg-primary ">
+                    <th>Index</th>
+                    <th>Task id</th>
+                    <th>Task Name</th>
+                    <th>Task Start Date</th>
+                    <th>Task End Date</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let task of service.tasks;index as i '>
+                <td>{{i+1}} </td>
+                <td>{{task.task_id}} </td>
+                <td>{{task.task}} </td>
+                <td>{{task.task_start_date}} </td>
+                <td>{{task.task_end_date}} </td>
+              
+            </tr>
+            </tbody>
+        </table>
+</div>
+
